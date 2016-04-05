@@ -1,0 +1,139 @@
+[
+    {
+        id: 1,
+        name: "Company Hub",
+        logo: "img/ProjectLogo/company_hub.png",
+        costumer: "GFI Informatique",
+        country: ["img/flags/fr.svg","FR"],
+        team: [["Vitor Pereira","img/FotosPerfil/VitorPereira.png"],
+                ["Pedro Conde","img/FotosPerfil/PedroConde.png"],
+                ["Rui Almeida","img/FotosPerfil/RuiAlmeida.png"],
+                ["Tiago Flores","img/FotosPerfil/TiagoFlores.png"],
+                ["Ivo Ventura","img/FotosPerfil/IvoVentura.png"],
+                ["Hugo Antunes","img/FotosPerfil/HugoAntunes.png"]],
+        info: {
+            objective: ["Mobile multi-platform portal to display and interact with data from enterprise systems"],
+            focus: ["Push Notifications and External Auth."]
+        },
+        about: {
+            issuesrisks: ["Not enough mobile phones o fully test all circunstances",
+                          "One man short on Android"],
+
+            keydiscussionitms: ["Planning of industrialization and support must be defined"]
+        },
+        status:{
+            percent: "Ongoing Product",
+            img: "img/status/state-green.png"
+        }
+    },
+    {
+        id: 2,
+        name: "MOCCA+",
+        logo: "img/ProjectLogo/crédit_agricole.png",
+        costumer: "Crédit Agricole",
+        country: ["img/flags/fr.svg","FR"],
+        team: [ ["Jorge Graça","img/FotosPerfil/JorgeGraça.png"],
+                ["António Pereira","img/FotosPerfil/AntónioPereira.png"],
+                ["Monique Pimentel","img/FotosPerfil/MoniquePimentel.png"],
+                ["André Silva","img/FotosPerfil/AndréSilva.png"],
+                ["Fábio Ferreira","img/FotosPerfil/FábioFerreira.png"],
+                ["André Saraiva","img/FotosPerfil/AndréSaraiva.png"],
+                ["João Barradas","img/FotosPerfil/JoãoBarradas.png"],
+                ["Mauro Cheganças","img/FotosPerfil/MauroCheganças.png"],
+                ["Cláudia Matos","img/FotosPerfil/CláudiaMatos.png"]],
+                
+        info: {
+            objective: ["Technical migration from Vignette to Sharepoint 2013."],
+            focus: ["Migration of 60 intranets",]
+        },
+        about: {
+            issuesrisks: ["Sharepoint 2013 variations"],
+
+            keydiscussionitms: ["Number of pages migrated: 15975"]
+        },
+        status:{
+            percent: "DONE",
+            img: "img/status/status10.svg"
+        }
+    },
+    {
+        id: 3,
+        name: "Toyota One",
+        logo: "img/ProjectLogo/toyota.png",
+        costumer: "Toyota",
+        country: ["img/flags/be.svg","BE"],
+        team: [["Laura Costa","img/FotosPerfil/LauraCosta.png"],
+                ["Ricardo Jafe","img/FotosPerfil/RicardoJafe.png"],
+                ["Liliana Gouveia","img/FotosPerfil/LilianaGouveia.png"],
+                ["Rute Henriques","img/FotosPerfil/RuteHenriques.png"],
+                ["Carla Silva","img/FotosPerfil/CarlaSilva.png"],
+                ["André Silva","img/FotosPerfil/AndréSilva.png"]],
+        info: {
+            objective: ["Quality Assurance of T1 Websites"
+                        ,"High Search Engine Performance"],
+            focus: ["Toyota Dealer Finder Regression Testing",
+                    "Knowledge Graph & Rich Snippets (SEO)",
+                    "Title and Description quality KPIs (SEO)"]
+        },
+        about: {
+            issuesrisks: ["3 Open issues"],
+
+            keydiscussionitms: ["User Cars Platform"
+                                ,"SEO in merchandise platform"]
+        },
+        status:{
+            percent: "19% Complete",
+            img: "img/status/state-yellow.png"
+        }
+    },
+    {
+        id: 4,
+        name: "Pégase 3",
+        logo: "img/ProjectLogo/pégase3.png",
+        costumer: "GFI Informatique",
+        country: ["img/flags/fr.svg","FR"],
+        team: [["Luís Gouveia","img/FotosPerfil/LuísGouveia.png"],
+                ["Jorge Gonçalves","img/FotosPerfil/JorgeGonçalves.png"],
+                ["César Lourenço","img/FotosPerfil/CésarLourenço.png"],
+                ["Jorge Santos","img/FotosPerfil/JorgeSantos.png"]],
+        info: {
+            objective: ["Improve last sprint's (Facture) performance"],
+            focus: ["The new sprint: Encaissement & Paiement"]
+            },
+        about: {
+            issuesrisks: ["Most of the new tasks are completely different from its predecessors"],
+
+            keydiscussionitms: ["Double-click issue"]
+        },
+        status:{
+            percent: "30% Complete",
+            img: "img/status/state-green.png"
+        }
+    },
+    {
+        id: 5,
+        name: "Connect Élu",
+        logo: "img/ProjectLogo/Connect_élu.png",
+        costumer: "GFI Informatique",
+        country: ["img/flags/fr.svg","FR"],
+        team: [["Vitor Pereira","img/FotosPerfil/VitorPereira.png"],
+                ["Ricardo Frango","img/FotosPerfil/RicardoFrango.png"],
+                ["Tiago Flores","img/FotosPerfil/TiagoFlores.png"],
+                ["Mauro Cheganças","img/FotosPerfil/MauroCheganças.png"]],
+        info: {
+            objective: ["Mobile solution for Local Government representatives / City Halls"],
+            focus: ["Giving access to Documents and Dossiers"
+                    ,"Digitally Sign Documents"]
+        },
+        about: {
+            issuesrisks: ["Only one developer per platform"],
+           
+            keydiscussionitms: ["Possible development of a smartphone version"]
+        },
+        status:{
+            percent: "85% Complete",
+            img: "img/status/state-green.png"
+        }
+    }
+
+]

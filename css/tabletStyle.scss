@@ -1,0 +1,304 @@
+*, 
+*:before, 
+*:after {
+	box-sizing: border-box;
+}
+
+html, 
+body, 
+#main,
+.all {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+}
+
+.fade2 {
+	animation-name: fade;
+    animation-duration: 2000ms;
+}
+
+header {
+	height: 135px;
+}
+
+main {
+	height: 75%;
+	padding: 0 25px;
+}
+
+#prjLogo {
+    float: left;
+    max-width: 20%;
+    max-height: 80%;
+}
+
+#logo {
+    max-width: 20%;
+    max-height: 80%;
+    float: right;
+}
+
+time {
+    display: none;
+}
+ 
+time span:last-child {
+	margin-left: 85px;
+}
+
+.bar {
+	background:url("../img/bar_blue.png") top repeat-x;
+	text-shadow:0px -1px 0px #000e2e;
+	border:1px solid #2a3844;
+	height: 20%;
+	clear: both;
+	color: rgb(255, 255, 255);
+	font-size: 2vw;
+	padding: 0 0.5%;
+	margin: 0;
+}
+
+.bar ul{
+	margin: 0 0 5px;
+}
+
+.bar li {
+    display: inline-block;
+    width: 33%;
+}
+
+.bar li:last-child {
+	text-align: right;
+}
+
+.bar li img{
+	width: 7%;
+}
+
+.abouttheproject {
+	height: 100%;
+}
+
+.abouttheproject ul{
+	padding: 3.2%;
+	background-color: #5A606E;
+	margin: 0;
+	height: 100%;
+	font-size: 2.2vh;
+}
+.abouttheproject ul label, .projectStatus ul label{
+	color: white;
+	font-weight: bold;
+}
+
+.abouttheproject ul li, .projectStatus ul li{
+	padding: 5px;
+	color: #fff;
+	margin-left: 35px;
+}
+
+.team {
+	height: 100%;
+}
+
+.content {
+    text-align: center;
+    
+    background-repeat: no-repeat;
+    background-size: 100% 72%;
+    width: 93%;
+    border-radius: 5%;
+}
+
+.perfil {
+    border-radius: 10% 5% 5% 5%;
+    padding-top: 7.7%;
+}
+
+
+
+.boxcol-1-3{
+	width: 33%;
+	display: inline-block;
+	padding: 1% 2% 0;
+}
+
+.perfilname{
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	padding: 0px 24%;
+}
+
+.box{
+	background-color: white;
+	padding: 0 5% 0;
+	height: 84%;
+}
+
+.box1{
+	padding: 5px 0 0;
+	border-top: none;
+	height: 88%;
+}
+
+.mainGrid {
+ 	width: 100%;
+ 	padding-top: 1%;
+}
+
+.col-1-3 {
+  width: 100%;
+  display: inline-block;
+}
+
+.col-2-3 {
+  width: 100%;
+  display: inline-block;
+  padding-left: 10px;
+
+}
+
+.projectStatus {
+    height: 100%;
+    width: 45%;
+}
+
+#about {
+	height: 50%;
+	width: 45%;
+	margin-bottom: 25px;
+}
+
+
+
+#team {
+	float: right;
+	width: 50%;
+}
+
+.projectStatus ul{
+	padding: 15px;
+	margin: 0;
+}
+
+#status {
+	height: 54.9%;
+}
+
+.col-1-2 {
+	height: 39.5%;
+	width: 100%;
+	padding: 0.7% 0 0;
+}
+
+.content1 {
+	height: 100%;
+	background-color: #5A606E;
+	display: inline-block;
+	width: 50%;
+	float: left;
+}
+
+.content1:first-child {
+	border-right: 5px solid #fff;
+}
+
+.statusContent {
+	height: 100%;
+	width: 100%;
+	float: left;
+}
+
+.imgstatus{
+	height: 65%;
+	margin: 0 auto;
+	display: block;
+}
+.statusText {
+	font-size: 5vh;
+	margin: 4% 0 7.2%;
+	text-align: center;
+}
+
+ /*Fade animation*/ 
+
+@keyframes fade {
+   0% {opacity: 1;}
+   50% {opacity: 0;}
+   100% {opacity: 1;}
+}
+
+/* -----------*/ 
+
+.but-color-medium{
+	background:url("../img/but_color_med_transp.png") top repeat-x;
+	padding:6px 7px 8px 7px;
+	font-weight:bold;
+}
+
+.but-color-medium {	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px 0 0;
+	padding:8px 10px 9px 7px;
+	color:white;
+}
+
+.but-color-medium span.but-icon{	
+	height:16px;
+	width:20px;
+	float:left;
+	margin-right:5px;
+}
+
+.aboutbar {
+	background:url("../img/bar_blue.png") top repeat-x;
+	text-shadow:0px -1px 0px #000e2e;
+	border:1px solid #2a3844;
+}
+
+.aboutbar span.but-icon{
+	background:url("../img/icon_about.png") top no-repeat;
+}
+
+.teambar {
+	background:url("../img/bar_blue.png") top repeat-x;
+	text-shadow:0px -1px 0px #000e2e;
+	border:1px solid #2a3844;
+}
+
+.teambar span.but-icon{
+	background:url("../img/icon_team.png") top no-repeat;
+}
+
+.statusbar {
+	background:url("../img/bar_orage.png") top repeat-x;
+	text-shadow:0px -1px 0px #587600;
+	border:1px solid #b48f24;
+}
+
+.statusbar span.but-icon{
+	background:url("../img/icon_status.png") top no-repeat;
+}
+
+
+
+
+@media screen and (min-width: 480px) {
+    #all {
+    	background-color: white;
+    }
+
+	header {	
+		height: 135px;
+	}
+	 
+	time {
+    	display: none;
+	}	
+
+
+}
