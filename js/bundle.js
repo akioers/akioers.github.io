@@ -6,12 +6,12 @@ module.exports=[
         logo: "img/ProjectLogo/company_hub.png",
         costumer: "GFI Informatique",
         country: ["img/flags/fr.svg","FR"],
-        team: [["Vitor Pereira","img/FotosPerfil/VitorPereira.png"],
-                ["Pedro Conde","img/FotosPerfil/PedroConde.png"],
-                ["Rui Almeida","img/FotosPerfil/RuiAlmeida.png"],
-                ["Tiago Flores","img/FotosPerfil/TiagoFlores.png"],
-                ["Ivo Ventura","img/FotosPerfil/IvoVentura.png"],
-                ["Hugo Antunes","img/FotosPerfil/HugoAntunes.png"]],
+        team: [["Vitor", "","img/FotosPerfil/VitorPereira.png"],
+                ["Pedro", "Conde","img/FotosPerfil/PedroConde.png"],
+                ["Rui", "Almeida","img/FotosPerfil/RuiAlmeida.png"],
+                ["Tiago", "Flores","img/FotosPerfil/TiagoFlores.png"],
+                ["Ivo", "Ventura","img/FotosPerfil/IvoVentura.png"],
+                ["Hugo", "Antunes","img/FotosPerfil/HugoAntunes.png"]],
         info: {
             objective: ["Mobile multi-platform portal to display and interact with data from enterprise systems"],
             focus: ["Push Notifications and External Auth."]
@@ -23,8 +23,7 @@ module.exports=[
             keydiscussionitms: ["Planning of industrialization and support must be defined"]
         },
         status:{
-            percent: "Ongoing Product",
-            img: "img/status/state-green.png"
+            percent: "Ongoing Product"
         }
     },
     {
@@ -33,15 +32,15 @@ module.exports=[
         logo: "img/ProjectLogo/crédit_agricole.png",
         costumer: "Crédit Agricole",
         country: ["img/flags/fr.svg","FR"],
-        team: [ ["Jorge Graça","img/FotosPerfil/JorgeGraça.png"],
-                ["António Pereira","img/FotosPerfil/AntónioPereira.png"],
-                ["Monique Pimentel","img/FotosPerfil/MoniquePimentel.png"],
-                ["André Silva","img/FotosPerfil/AndréSilva.png"],
-                ["Fábio Ferreira","img/FotosPerfil/FábioFerreira.png"],
-                ["André Saraiva","img/FotosPerfil/AndréSaraiva.png"],
-                ["João Barradas","img/FotosPerfil/JoãoBarradas.png"],
-                ["Mauro Cheganças","img/FotosPerfil/MauroCheganças.png"],
-                ["Cláudia Matos","img/FotosPerfil/CláudiaMatos.png"]],
+        team: [ ["Jorge", "Graça","img/FotosPerfil/JorgeGraça.png"],
+                ["António", "Pereira","img/FotosPerfil/AntónioPereira.png"],
+                ["Monique", "Pimentel","img/FotosPerfil/MoniquePimentel.png"],
+                ["André", "Silva","img/FotosPerfil/AndréSilva.png"],
+                ["Fábio", "Ferreira","img/FotosPerfil/FábioFerreira.png"],
+                ["André", "Saraiva","img/FotosPerfil/AndréSaraiva.png"],
+                ["João", "Barradas","img/FotosPerfil/JoãoBarradas.png"],
+                ["Mauro", "Cheganças","img/FotosPerfil/MauroCheganças.png"],
+                ["Cláudia", "Matos","img/FotosPerfil/CláudiaMatos.png"]],
                 
         info: {
             objective: ["Technical migration from Vignette to Sharepoint 2013."],
@@ -53,8 +52,7 @@ module.exports=[
             keydiscussionitms: ["Number of pages migrated: 15975"]
         },
         status:{
-            percent: "DONE",
-            img: "img/status/status10.svg"
+            percent: "90"
         }
     },
     {
@@ -63,12 +61,12 @@ module.exports=[
         logo: "img/ProjectLogo/toyota.png",
         costumer: "Toyota",
         country: ["img/flags/be.svg","BE"],
-        team: [["Laura Costa","img/FotosPerfil/LauraCosta.png"],
-                ["Ricardo Jafe","img/FotosPerfil/RicardoJafe.png"],
-                ["Liliana Gouveia","img/FotosPerfil/LilianaGouveia.png"],
-                ["Rute Henriques","img/FotosPerfil/RuteHenriques.png"],
-                ["Carla Silva","img/FotosPerfil/CarlaSilva.png"],
-                ["André Silva","img/FotosPerfil/AndréSilva.png"]],
+        team: [["Laura", "","img/FotosPerfil/LauraCosta.png"],
+                ["Ricardo", "Jafe","img/FotosPerfil/RicardoJafe.png"],
+                ["Liliana", "Gouveia","img/FotosPerfil/LilianaGouveia.png"],
+                ["Rute", "Henriques","img/FotosPerfil/RuteHenriques.png"],
+                ["Carla", "Silva","img/FotosPerfil/CarlaSilva.png"],
+                ["André", "Silva","img/FotosPerfil/AndréSilva.png"]],
         info: {
             objective: ["Quality Assurance of T1 Websites"
                         ,"High Search Engine Performance"],
@@ -83,8 +81,7 @@ module.exports=[
                                 ,"SEO in merchandise platform"]
         },
         status:{
-            percent: "19% Complete",
-            img: "img/status/state-yellow.png"
+            percent: "19% Complete"
         }
     },
     {
@@ -93,10 +90,10 @@ module.exports=[
         logo: "img/ProjectLogo/pégase3.png",
         costumer: "GFI Informatique",
         country: ["img/flags/fr.svg","FR"],
-        team: [["Luís Gouveia","img/FotosPerfil/LuísGouveia.png"],
-                ["Jorge Gonçalves","img/FotosPerfil/JorgeGonçalves.png"],
-                ["César Lourenço","img/FotosPerfil/CésarLourenço.png"],
-                ["Jorge Santos","img/FotosPerfil/JorgeSantos.png"]],
+        team: [["Luís", "Gouveia","img/FotosPerfil/LuísGouveia.png"],
+                ["Jorge", "Gonçalves","img/FotosPerfil/JorgeGonçalves.png"],
+                ["César", "Lourenço","img/FotosPerfil/CésarLourenço.png"],
+                ["Jorge", "Santos","img/FotosPerfil/JorgeSantos.png"]],
         info: {
             objective: ["Improve last sprint's (Facture) performance"],
             focus: ["The new sprint: Encaissement & Paiement"]
@@ -107,8 +104,7 @@ module.exports=[
             keydiscussionitms: ["Double-click issue"]
         },
         status:{
-            percent: "30% Complete",
-            img: "img/status/state-green.png"
+            percent: "30% Complete"
         }
     },
     {
@@ -117,10 +113,10 @@ module.exports=[
         logo: "img/ProjectLogo/Connect_élu.png",
         costumer: "GFI Informatique",
         country: ["img/flags/fr.svg","FR"],
-        team: [["Vitor Pereira","img/FotosPerfil/VitorPereira.png"],
-                ["Ricardo Frango","img/FotosPerfil/RicardoFrango.png"],
-                ["Tiago Flores","img/FotosPerfil/TiagoFlores.png"],
-                ["Mauro Cheganças","img/FotosPerfil/MauroCheganças.png"]],
+        team: [["Vitor", "Pereira","img/FotosPerfil/VitorPereira.png"],
+                ["Ricardo", "Frango","img/FotosPerfil/RicardoFrango.png"],
+                ["Tiago", "Flores","img/FotosPerfil/TiagoFlores.png"],
+                ["Mauro", "Cheganças","img/FotosPerfil/MauroCheganças.png"]],
         info: {
             objective: ["Mobile solution for Local Government representatives / City Halls"],
             focus: ["Giving access to Documents and Dossiers"
@@ -132,8 +128,7 @@ module.exports=[
             keydiscussionitms: ["Possible development of a smartphone version"]
         },
         status:{
-            percent: "85% Complete",
-            img: "img/status/state-green.png"
+            percent: "85% Complete"
         }
     }
 
@@ -190,7 +185,9 @@ var ProjectLogo = React.createClass({displayName: "ProjectLogo",
 var GFIlogo = React.createClass({displayName: "GFIlogo",
     render: function() {
         return (
-            React.createElement("img", {id: "logo", src: this.props.imageSrc, key: this.props.imageSrc})
+            React.createElement("div", {id: "logo"}, 
+                React.createElement("img", {src: this.props.imageSrc, key: this.props.imageSrc})
+            )
         );
     }
 });
@@ -327,9 +324,10 @@ var Team = React.createClass({displayName: "Team",
                 ), 
                 React.createElement("div", {className: "teamContent"}, 
                     this.props.projects[this.props.page].team.map(function(item){
-                        return React.createElement("div", {key: item[0]}, 
-                                    React.createElement("img", {className: "profilePic", src: item[1]}), 
-                                    React.createElement("h5", {className: "profileName"}, " ", item[0], " ")
+                        return React.createElement("div", {key: item[0]+item[1]}, 
+                                    React.createElement("img", {className: "profilePic", src: item[2]}), 
+                                    React.createElement("h5", {className: "profileFirstName"}, " ", item[0], " "), 
+                                    React.createElement("h5", {className: "profileLastName"}, " ", item[1], " ")
                                 );
                     })
                 )
@@ -372,11 +370,21 @@ var KeyDiscussionItems = React.createClass({displayName: "KeyDiscussionItems",
 // PRINT STATUS METER
 var Progress = React.createClass({displayName: "Progress",
     render: function(){
+        var percent = this.props.projects[this.props.page].status.percent;
         return(
             React.createElement("div", {className: "progress"}, 
-                
-                React.createElement("img", {src: this.props.projects[this.props.page].status.img})
+                React.createElement("div", {id: "bar-1", className: "bar-main-container white"}, 
+                    React.createElement("div", {className: "wrap"}, 
+                        React.createElement("div", {id: "bar-percentage", className: "bar-percentage", "data-percentage": percent}), 
+                        React.createElement("div", {className: "bar-container"}, 
+                            React.createElement("div", {id: "meter", className: "meter"}, 
+                                React.createElement("span", {id: "spanMeter"})
+                            )
+                        )
+                    )
+                )
             )
+            
         );
     }
 });

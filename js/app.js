@@ -49,7 +49,9 @@ var ProjectLogo = React.createClass({
 var GFIlogo = React.createClass({
     render: function() {
         return (
-            <img id="logo" src={this.props.imageSrc} key={this.props.imageSrc} />
+            <div id="logo">
+                <img src={this.props.imageSrc} key={this.props.imageSrc} />
+            </div>
         );
     }
 });
@@ -186,9 +188,10 @@ var Team = React.createClass({
                 </div>
                 <div className="teamContent">
                     {this.props.projects[this.props.page].team.map(function(item){
-                        return <div key={item[0]} >
-                                    <img className="profilePic" src={item[1]} />
-                                    <h5 className="profileName"> {item[0]} </h5>
+                        return <div key={item[0]+item[1]} >
+                                    <img className="profilePic" src={item[2]} />
+                                    <h5 className="profileFirstName"> {item[0]} </h5>
+                                    <h5 className="profileLastName"> {item[1]} </h5>
                                 </div>;
                     })}
                 </div>
@@ -231,11 +234,21 @@ var KeyDiscussionItems = React.createClass({
 // PRINT STATUS METER
 var Progress = React.createClass({
     render: function(){
+        var percent = this.props.projects[this.props.page].status.percent;
         return(
             <div className="progress">
-                
-                <img src={this.props.projects[this.props.page].status.img} />
+                <div id="bar-1" className="bar-main-container white">
+                    <div className="wrap">
+                        <div id="bar-percentage" className="bar-percentage" data-percentage={percent}></div>
+                        <div className="bar-container">
+                            <div id="meter" className="meter">
+                                <span id="spanMeter"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            
         );
     }
 });
@@ -310,3 +323,4 @@ ReactDOM.render(
     </IntlProvider>,
     document.getElementById('main')
 );
+
