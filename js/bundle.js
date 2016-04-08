@@ -52,7 +52,7 @@ module.exports=[
             keydiscussionitms: ["Number of pages migrated: 15975"]
         },
         status:{
-            percent: "60"
+            percent: "90"
         }
     },
     {
