@@ -109,7 +109,7 @@ header {
   overflow: hidden; }
 
 .statusContent {
-  padding: 5% 5% 0;
+  padding: 5% 5% 2%;
   color: #584C4C;
   height: 100%; }
 
@@ -118,7 +118,7 @@ header {
 
 .bar-main-container {
   background-color: #AAAFB7;
-  margin: 10px auto;
+  margin: 10px auto 0;
   height: 50px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -145,8 +145,8 @@ header {
 
 .bar-container {
   float: right;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
   border-radius: 2px;
   height: 15px;
   background: rgba(0, 0, 0, 0.13);
@@ -157,11 +157,11 @@ header {
   height: 100%;
   width: 100%;
   background: #555;
-  border-radius: 2px;
+  padding: 2px;
+  border-radius: 4px;
   -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
   -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
-  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
-  padding: 2px; }
+  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3); }
   .meter span {
     display: block;
     height: 95%;

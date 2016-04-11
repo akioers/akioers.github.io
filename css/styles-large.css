@@ -6,55 +6,97 @@ body,
   height: 100%; }
 
 header {
-  height: 13%;
-  background-color: #ccc;
-  padding: 1%; }
-  header #prjLogo,
+  height: 25%; }
+  header #prjLogo {
+    float: right;
+    padding: 1%;
+    max-width: 20%;
+    height: 80%; }
+    header #prjLogo img {
+      max-width: 100%;
+      max-height: 100%; }
   header time {
-    display: none; }
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    background-color: #3d4f59;
+    padding: 1%;
+    color: #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; }
+  header time span:last-child {
+    margin-left: 85px; }
   header #logo {
-    max-width: 30%;
-    display: inline-block;
-    max-height: 100%;
-    margin-right: 3%;
+    max-width: 20%;
+    max-height: 80%;
     float: left;
-    height: 100%; }
+    display: inline-block;
+    height: 100%;
+    padding: 1%; }
     header #logo img {
       max-width: 100%;
       max-height: 100%; }
   header .bar {
-    width: 67%;
-    display: inline-block;
-    color: #fff; }
+    height: 20%;
+    color: #fff;
+    clear: both;
+    background-color: #3D4F59;
+    font-size: 23px; }
+    header .bar ul {
+      height: 100%;
+      width: 100%;
+      display: table;
+      padding: 0 15px; }
     header .bar li {
-      display: inline-block;
-      width: 33%; }
+      width: 33%;
+      display: table-cell;
+      vertical-align: middle; }
+    header .bar li:last-child {
+      padding-left: 20%; }
   header #flag {
-    width: 10%; }
+    width: 10%;
+    display: none; }
 
 .mainGrid {
-  height: 87%; }
+  height: 75%;
+  padding: 15px 20px; }
 
 .about {
   background-color: #cf0;
-  width: 30%;
+  width: 40%;
   height: 45%;
   display: inline-block;
   float: left;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px; }
   .about .title {
+    color: #fff;
     background-color: #1263C7;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    padding: 10px; }
+    padding: 1%;
+    height: 13%;
+    font-size: 3vmin; }
   .about .aboutContent {
-    background-color: #ccc; }
+    background-color: #ccc;
+    height: 87%;
+    padding: 15px; }
+    .about .aboutContent ul {
+      margin-bottom: 20px; }
+    .about .aboutContent label {
+      font-weight: bold;
+      margin-bottom: 10px;
+      display: block; }
+    .about .aboutContent li {
+      list-style: disc;
+      margin-left: 25px; }
 
 .status {
   background-color: #c6F;
-  width: 70%;
+  width: 57%;
   height: 45%;
+  float: right;
   display: inline-block;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px; }
@@ -62,7 +104,19 @@ header {
     background-color: orange;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    padding: 10px; }
+    padding: 1%;
+    font-size: 3vmin; }
+  .status .statusContent {
+    padding: 15px; }
+    .status .statusContent ul {
+      margin-bottom: 20px; }
+    .status .statusContent label {
+      font-weight: bold;
+      margin-bottom: 10px;
+      display: block; }
+    .status .statusContent li {
+      list-style: disc;
+      margin-left: 25px; }
 
 .team {
   clear: both;

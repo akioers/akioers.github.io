@@ -132,7 +132,6 @@ header {
     	color: #fff;
 
     	.teamContent {
-
 			.profilePic {
 				max-width: 95%;
 				border-radius: 6px;
@@ -160,7 +159,7 @@ header {
 	}
 
 	.statusContent {
-		padding: 5% 5% 0;
+		padding: 5% 5% 2%;
 		color: #584C4C;
 		height: 100%;
 	}
@@ -173,7 +172,7 @@ header {
 
 .bar-main-container {
 	background-color: #AAAFB7;
-	margin: 10px auto;
+	margin: 10px auto 0;
 	height: 50px;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -182,7 +181,7 @@ header {
 	font-weight: bolder;
 	font-size: 1em;
 	color: #FFF;
-    box-shadow: 4px 4px 7px #888888;
+	box-shadow: 4px 4px 7px #888888;
 }
 
 .wrap { padding: 8px; }
@@ -201,8 +200,8 @@ header {
 
 .bar-container {
 	float: right;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
 	border-radius: 2px;
 	height: 15px;
 	background: rgba(0,0,0,0.13);
@@ -214,13 +213,14 @@ header {
 			height: 100%;
 			width: 100%;
 			background: #555;
-			border-radius: 2px;
+			padding: 2px;
+			border-radius: 4px;
 			-webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
 			-moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
 			box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
-			padding: 2px;
 
-	span {
+		
+		span {
 			display: block;
 			height: 95%;
 			
@@ -248,28 +248,28 @@ header {
 			position: relative;
 		}
 
-	span:after{
+		span:after {
 			content: "";
 			position: absolute;
 			top: 0; left: 0; bottom: 0; right: 0;
 			background-image:
-				-webkit-gradient(linear, 0 0, 100% 100%,
-					color-stop(.25, rgba(255, 255, 255, .2)),
-					color-stop(.25, transparent), color-stop(.5, transparent),
-					color-stop(.5, rgba(255, 255, 255, .2)),
-					color-stop(.75, rgba(255, 255, 255, .2)),
-					color-stop(.75, transparent), to(transparent)
+			   -webkit-gradient(linear, 0 0, 100% 100%,
+			      color-stop(.25, rgba(255, 255, 255, .2)),
+			      color-stop(.25, transparent), color-stop(.5, transparent),
+			      color-stop(.5, rgba(255, 255, 255, .2)),
+			      color-stop(.75, rgba(255, 255, 255, .2)),
+			      color-stop(.75, transparent), to(transparent)
 			   );
 			background-image:
-			-moz-linear-gradient(
-				-45deg,
-				rgba(255, 255, 255, .2) 25%,
-				transparent 25%,
-				transparent 50%,
-				rgba(255, 255, 255, .2) 50%,
-				rgba(255, 255, 255, .2) 75%,
-				transparent 75%,
-				transparent
+				-moz-linear-gradient(
+				  -45deg,
+			      rgba(255, 255, 255, .2) 25%,
+			      transparent 25%,
+			      transparent 50%,
+			      rgba(255, 255, 255, .2) 50%,
+			      rgba(255, 255, 255, .2) 75%,
+			      transparent 75%,
+			      transparent
 			   );
 			z-index: 1;
 			-webkit-background-size: 50px 50px;
